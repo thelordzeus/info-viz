@@ -11,7 +11,7 @@ import {
 
 export default function Navbar() {
   return (
-    <header className="bg-white">
+    <header className="bg-white sticky top-0 z-50">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -28,7 +28,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="text-white transition hover:bg-white hover:text-black px-4 py-3 rounded-md"
-                    href="/"
+                    href="#About"
                   >
                     About
                   </a>
