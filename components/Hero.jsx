@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { AreaChart, FileText } from "lucide-react";
+
 export default function Hero() {
   return (
     <section className="">
@@ -14,11 +16,13 @@ export default function Hero() {
           <p className="mt-4 sm:text-xl/relaxed text-white">Section Z1</p>
 
           <div className="mt-8 flex flex-wrap justify-left gap-4">
-            <Button variant="outline" className="bg-[#1c1c1c] text-white">
+            <Button variant="outline" className="bg-[#1c1c1c] text-white  ">
+              <AreaChart className="mr-2 h-4 w-4 " />
               Tableau
             </Button>
-            <Button className="bg-white text-black transition hover:text-white hover:bg-[#1c1c1c]">
-              Abstract
+            <Button className="bg-white hover:bg-white">
+              <FileText className="mr-2 h-4 w-4 bg-white text-black" />
+              <span className="text-black bg-white">Abstract</span>
             </Button>
           </div>
         </div>
