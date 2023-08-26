@@ -1,11 +1,24 @@
+import { Button } from "@/components/ui/button";
+import { FiGithub } from "react-icons/fi";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
 export default function Navbar() {
   return (
-    <header className="bg-black">
+    <header className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-white font-title" href="/">
-              <span className="">Information Visualization</span>
+            <a className="block " href="/">
+              <span className="text-white font-bold text-xl ">
+                Information Visualization
+              </span>
             </a>
           </div>
 
@@ -14,7 +27,7 @@ export default function Navbar() {
               <ul className="flex items-center gap-6 text-sm">
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:bg-white hover:text-black px-4 py-3 rounded-md"
                     href="/"
                   >
                     About
@@ -23,7 +36,7 @@ export default function Navbar() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:bg-white hover:text-black px-4 py-3 rounded-md"
                     href="/"
                   >
                     Experiments
@@ -35,40 +48,22 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
-                className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-                href="/"
-              >
-                Login
-              </a>
-
-              <div className="hidden sm:flex">
-                <a
-                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
-                  href="/"
-                >
-                  Register
-                </a>
-              </div>
+              <Button className="bg-white hover:bg-white">
+                <FiGithub className="mr-2 h-4 w-4 bg-white text-black" />{" "}
+                <span className="text-black bg-white">Follow</span>
+              </Button>
             </div>
 
             <div className="block md:hidden">
-              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </button>
+              <DropdownMenu className="bg-[##1c1c1c]">
+                <DropdownMenuTrigger className="text-white rounded border px-4 py-2">
+                  Open
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="bg-[##1c1c1c] text-white">
+                  <DropdownMenuItem>About</DropdownMenuItem>
+                  <DropdownMenuItem>Experiments</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
           </div>
         </div>
