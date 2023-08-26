@@ -36,8 +36,8 @@ export default function Navbar() {
 
                 <li>
                   <a
-                    className="text-white transition hover:bg-white hover:text-black px-4 py-3 rounded-md"
-                    href="/"
+                    className="text-white transition hover:bg-white hover:text-black px-4 py-3 rounded-md ease-in"
+                    href="#Experiments"
                   >
                     Experiments
                   </a>
