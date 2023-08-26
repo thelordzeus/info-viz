@@ -33,7 +33,8 @@ export default function Experiments() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
-            href="/services/digital-campaigns"
+            href="https://analytics.zoho.in/open-view/314561000000005154"
+            target="_blank"
           >
             <AreaChart className="h-10 w-10 text-blue-400" />
             <h2 className="mt-4 text-xl font-bold text-white">
@@ -48,15 +49,17 @@ export default function Experiments() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
-            href="/services/digital-campaigns"
+            href="https://www.inspirajournals.com/uploads/Issues/1292159930.pdf"
           >
             <ScatterChart className="h-10 w-10 text-blue-400" />
             <h2 className="mt-4 text-xl font-bold text-white">
-              Exp - 3 visualization using Gephi
+              Exp - 3 Research Paper Related to Abstract
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              The Gephi software was used to visualize the data collected.
+              The research paper chosen by me which is related to my chosen
+              project is "AN ANALYSIS ON UNEMPLOYMENT IN INDIA: A BURNING ISSUE"
+              by Dr. Abhishek Chaturvedi.
             </p>
           </a>
         </div>
