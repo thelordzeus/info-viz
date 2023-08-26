@@ -2,7 +2,7 @@ import { AreaChart, FileText, ScatterChart } from "lucide-react";
 
 export default function Experiments() {
   return (
-    <section className="bg-gray-900 text-white" id="Experiments">
+    <section className=" text-white" id="Experiments">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto  max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Experiments</h2>
@@ -25,9 +25,9 @@ export default function Experiments() {
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              An Abstract was written on the topic of "Indian Unemployment
-              Report", Where we studied and researched about the unemployment
-              data collected by the government of India.
+              An Abstract was written on the topic of &quot;Indian Unemployment
+              Report&quot;, Where we studied and researched about the
+              unemployment data collected by the government of India.
             </p>
           </a>
 
@@ -58,8 +58,8 @@ export default function Experiments() {
 
             <p className="mt-1 text-sm text-gray-300">
               The research paper chosen by me which is related to my chosen
-              project is "AN ANALYSIS ON UNEMPLOYMENT IN INDIA: A BURNING ISSUE"
-              by Dr. Abhishek Chaturvedi.
+              project is &quot;AN ANALYSIS ON UNEMPLOYMENT IN INDIA: A BURNING
+              ISSUE&quot; by Dr. Abhishek Chaturvedi.
             </p>
           </a>
         </div>
