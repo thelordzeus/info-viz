@@ -55,7 +55,7 @@ export default function Navbar() {
             </div>
 
             <div className="block md:hidden">
-              <DropdownMenu className="bg-[##1c1c1c]">
+              <DropdownMenu className="bg-[#1c1c1c]">
                 <DropdownMenuTrigger className="text-white rounded border px-4 py-2">
                   Open
                 </DropdownMenuTrigger>
