@@ -48,10 +48,12 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <Button className="bg-white hover:bg-white">
-                <FiGithub className="mr-2 h-4 w-4 bg-white text-black" />{" "}
-                <span className="text-black bg-white">Follow</span>
-              </Button>
+              <a href="https://github.com/thelordzeus" target="_blank">
+                <Button className="bg-white hover:bg-white">
+                  <FiGithub className="mr-2 h-4 w-4 bg-white text-black" />{" "}
+                  <span className="text-black bg-white">Follow</span>
+                </Button>
+              </a>
             </div>
 
             <div className="block md:hidden">
