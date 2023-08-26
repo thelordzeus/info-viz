@@ -4,7 +4,7 @@ import { AreaChart, FileText } from "lucide-react";
 export default function Hero() {
   return (
     <section className="" id="About">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center items-center">
         <div className="ml-4 max-w-xl text-left">
           <h1 className="text-3xl  sm:text-5xl font-title text-white">
             Arnav Shukla
