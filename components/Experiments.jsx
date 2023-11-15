@@ -62,6 +62,20 @@ export default function Experiments() {
               ISSUE&quot; by Dr. Abhishek Chaturvedi.
             </p>
           </a>
+          <a
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
+            href="https://www.inspirajournals.com/uploads/Issues/1292159930.pdf"
+          >
+            <ScatterChart className="h-10 w-10 text-blue-400" />
+            <h2 className="mt-4 text-xl font-bold text-white">
+              Exp - 4 Car sales analysis report
+            </h2>
+
+            <p className="mt-1 text-sm text-gray-300">
+              This analysis was done by analyzing the data related to the car
+              sales
+            </p>
+          </a>
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
@@ -69,7 +83,7 @@ export default function Experiments() {
           >
             <ScatterChart className="h-10 w-10 text-blue-400" />
             <h2 className="mt-4 text-xl font-bold text-white">
-              Exp - 4 Top 2% scientist by stanford dataset visualization
+              Exp - 5 Top 2% scientist by stanford dataset visualization
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
