@@ -62,6 +62,22 @@ export default function Experiments() {
               ISSUE&quot; by Dr. Abhishek Chaturvedi.
             </p>
           </a>
+
+          <a
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
+            href="https://analytics.zoho.in/open-view/337360000000002677/bb56030d78888614ab8bfee6af137b28"
+          >
+            <ScatterChart className="h-10 w-10 text-blue-400" />
+            <h2 className="mt-4 text-xl font-bold text-white">
+              Exp - 4 Top 2% scientist by stanford dataset visualization
+            </h2>
+
+            <p className="mt-1 text-sm text-gray-300">
+              This is an annual dataset provided by stanford university where
+              they provide insight about the top performing scientists of the
+              world.
+            </p>
+          </a>
         </div>
       </div>
     </section>
