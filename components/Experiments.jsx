@@ -64,7 +64,7 @@ export default function Experiments() {
           </a>
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-gray-500/10 hover:shadow-gray-500/10"
-            href="https://www.inspirajournals.com/uploads/Issues/1292159930.pdf"
+            href="https://www.canva.com/design/DAFugKEiADE/C_mnafR7-ql1vn21V9EqwA/edit?utm_content=DAFugKEiADE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
           >
             <ScatterChart className="h-10 w-10 text-blue-400" />
             <h2 className="mt-4 text-xl font-bold text-white">
